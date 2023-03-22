@@ -11,6 +11,10 @@ import { CounterComponent } from './counter/counter.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { HeroComponent } from './hero/hero.component';
 import { AboutComponent } from './about/about.component';
+import { CertificationsComponent } from './certifications/certifications.component';
+import { SkillsComponent } from './skills/skills.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { CoursesComponent } from './courses/courses.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,11 @@ import { AboutComponent } from './about/about.component';
     CounterComponent,
     FetchDataComponent,
     HeroComponent,
-    AboutComponent
+    AboutComponent,
+    CertificationsComponent,
+    SkillsComponent,
+    PortfolioComponent,
+    CoursesComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
