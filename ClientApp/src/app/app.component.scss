@@ -1,0 +1,318 @@
+/* Media Queries */
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    z-index: 10 !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg {
+    /* -ms-flex-wrap: nowrap; */
+    flex-wrap: nowrap;
+    /* -ms-flex-pack: start; */
+    justify-content: flex-start;
+    z-index: 10 !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  h1, .h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 412px) and (max-width: 375px) {
+  .container, .container-sm {
+    max-width: 375px;
+  }
+
+  .grant-center {
+    justify-content: center !important;
+    align-content: center !important;
+    width: 100vw !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 736px) {
+  .container, .container-sm {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container, .container-sm, .container-md {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container, .container-sm, .container-md, .container-lg {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container, .container-sm, .container-md, .container-lg, .container-xl {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
+    max-width: 1320px;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md {
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+  }
+
+  h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #1a1a1a;
+  }
+
+  h1, .h1 {
+    font-size: calc(1.325rem + 0.9vw);
+  }
+
+  .address {
+    margin-bottom: 1rem;
+    font-style: normal;
+    line-height: inherit;
+  }
+
+  .ol,
+  .ul {
+    padding-left: 2rem;
+  }
+
+  .ol,
+  .ul,
+  .dl {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+  ol ol,
+  ul ul,
+  ol ul,
+  ul ol {
+    margin-bottom: 0;
+  }
+
+  .dt {
+    font-weight: 700;
+  }
+
+  .dd {
+    margin-bottom: .5rem;
+    margin-left: 0;
+  }
+
+  .b,
+  .strong {
+    font-weight: bolder;
+  }
+
+  .p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+  .li a:hover {
+    background-color: rgb(248, 248, 248);
+    color: black;
+  }
+
+  .me-auto {
+    margin-right: auto !important;
+  }
+
+  .container,
+  .container-fluid,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl,
+  .container-xxl {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #EFE9E4;
+  }
+
+  body {
+    width: 100vw !important;
+    max-width: 100% !important;
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: #EFE9E4 !important;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+}
+
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+
+  html,
+  body {
+    justify-content: center !important;
+    width: 100vw !important;
+    max-width: 100% !important;
+    margin: auto !important;
+    background-color: #EFE9E4 !important;
+  }
+
+  .about-p {
+    width: 90vw !important;
+    min-width: 100%;
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+}
+
+
+
+//STANDARD CODE
+html,
+body {
+  justify-content: center !important;
+  width: 100vw !important;
+  max-width: 100% !important;
+  margin: auto !important;
+  background-color: #EFE9E4 !important;
+}
+
+.home-body {
+  margin-top: 450px !important;
+  z-index: 0;
+}
+
+.body {
+  min-height: 100vh !important;
+  height: 100% !important;
+  background-color: #EFE9E4 !important;
+  width: 100vw !important;
+  max-width: 100% !important;
+  margin: auto !important;
+  box-sizing: border-box !important;
+}
+
+.main-body {
+  width: 100vw !important;
+  max-width: 100% !important;
+  margin: auto !important;
+  box-sizing: border-box !important;
+  height: 100%;
+  min-height: 100%;
+  background-color: #EFE9E4;
+  display: flex;
+  flex-direction: column;
+}
+
+/*ABOUT SECTION CSS */
+.subtitles-about {
+  position: relative;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-family: 'Playfair Display', serif;
+  color: #D49B72;
+  width: 100%;
+  max-width: 65%;
+  min-width: 65%;
+  height: 40px;
+  text-align: center;
+  letter-spacing: 3px;
+  margin: auto;
+  margin-bottom: 0px;
+  border-bottom: 1px solid #D49B72;
+  background-color: #EFE9E4 !important;
+}
+
+h1 {
+  display: flex;
+  align-items: center !important;
+  align-content: center !important;
+}
+
+.section-line {
+  position: relative !important;
+  border-bottom: 2px solid rgb(66, 66, 66) !important;
+  width: 80vw !important;
+  align-content: center !important;
+  justify-content: center !important;
+  vertical-align: middle !important;
+  margin: auto !important;
+}
+
+.main-body-about {
+  width: 100%;
+  min-width: 80%;
+  max-width: 100%;
+  vertical-align: middle !important;
+  margin: 0;
+  margin-bottom: 40px !important;
+  justify-content: center !important;
+  background-color: #EFE9E4;
+  padding-top: 20px;
+}
+
+.about-section-text {
+  display: flex;
+  flex-direction: row;
+  position: relative !important;
+  justify-content: center !important;
+  vertical-align: middle !important;
+  align-content: center !important;
+  color: rgb(66, 66, 66);
+  margin-bottom: 120px;
+  margin: auto;
+  width: 80%;
+  max-width: 60%;
+  min-width: 60%;
+  text-align: justify;
+  padding: 10px;
+}
+
+.about-p {
+  justify-content: center !important;
+  align-content: center !important;
+  width: 40vw !important;
+  min-width: 100% !important;
+  max-width: 100% !important;
+  margin-bottom: 30px;
+  line-height: 1.5;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.05rem;
+  text-align: justify;
+  overflow-wrap: break-word;
+}

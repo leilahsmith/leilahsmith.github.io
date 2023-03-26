@@ -1,0 +1,26 @@
+
+.resume-iframe {
+  width: 100%;
+  max-width: 90% !important;
+  min-width: 90% !important;
+  height: 400%;
+  max-height: 100% !important;
+  min-height: 1023px !important;
+  justify-content: center !important;
+  align-content: center !important;
+}
+
+.resume-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: auto;
+}
+
+.resume-link {
+  text-decoration: none !important;
+  border: 1px solid #333;
+  padding: 3px;
+  font-size: .75em;
+}
