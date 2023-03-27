@@ -3,10 +3,10 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { Routes, RouterModule } from '@angular/router';
+import { AccordionModule } from 'ngx-bootstrap/accordion';
 
 import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
-import { HomeComponent } from './home/home.component';
 import { CounterComponent } from './counter/counter.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { HeroComponent } from './hero/hero.component';
@@ -30,7 +30,6 @@ const routes: Routes = [
   declarations: [
     AppComponent,
     NavMenuComponent,
-    HomeComponent,
     CounterComponent,
     FetchDataComponent,
     HeroComponent,
@@ -48,7 +47,6 @@ const routes: Routes = [
     HttpClientModule,
     FormsModule,
     RouterModule.forRoot([
-      { path: '', component: HomeComponent },
       { path: 'hero', component: HeroComponent },
       { path: 'about', component: AboutComponent },
       { path: 'certifications', component: CertificationsComponent },
@@ -58,7 +56,8 @@ const routes: Routes = [
       { path: 'resume', component: ResumeComponent },
       { path: 'contact', component: ContactComponent },
       { path: 'footer', component: FooterComponent },
-    ])
+    ]),
+    [AccordionModule.forRoot()]
   ],
   exports: [RouterModule],
   providers: [],

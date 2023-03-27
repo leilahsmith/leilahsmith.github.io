@@ -11,9 +11,9 @@
 
 @media (min-width: 992px) {
   .navbar-expand-lg {
-    /* -ms-flex-wrap: nowrap; */
+     -ms-flex-wrap: nowrap; 
     flex-wrap: nowrap;
-    /* -ms-flex-pack: start; */
+     -ms-flex-pack: start; 
     justify-content: flex-start;
     z-index: 10 !important;
   }
@@ -170,9 +170,9 @@
 }
 
 
-/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+ ----------- iPhone 6+, 7+ and 8+ ----------- 
 
-/* Portrait and Landscape */
+ Portrait and Landscape 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
 
   html,
@@ -192,11 +192,11 @@
   }
 }
 
-/* Portrait */
+ Portrait 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
 }
 
-/* Landscape */
+ Landscape 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
 }
 
@@ -239,7 +239,7 @@ body {
   flex-direction: column;
 }
 
-/*ABOUT SECTION CSS */
+ABOUT SECTION CSS 
 .subtitles-about {
   position: relative;
   justify-content: center;
