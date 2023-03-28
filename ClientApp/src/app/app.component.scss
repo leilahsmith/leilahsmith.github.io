@@ -237,6 +237,7 @@ body {
   background-color: #EFE9E4;
   display: flex;
   flex-direction: column;
+  color: #7880B5;
 }
 
 /*ABOUT SECTION CSS */
@@ -262,45 +263,6 @@ h1 {
   display: flex;
   align-items: center !important;
   align-content: center !important;
-}
-
-.section-line {
-  position: relative !important;
-  border-bottom: 2px solid rgb(66, 66, 66) !important;
-  width: 80vw !important;
-  align-content: center !important;
-  justify-content: center !important;
-  vertical-align: middle !important;
-  margin: auto !important;
-}
-
-.main-body-about {
-  width: 100%;
-  min-width: 80%;
-  max-width: 100%;
-  vertical-align: middle !important;
-  margin: 0;
-  margin-bottom: 40px !important;
-  justify-content: center !important;
-  background-color: #EFE9E4;
-  padding-top: 20px;
-}
-
-.about-section-text {
-  display: flex;
-  flex-direction: row;
-  position: relative !important;
-  justify-content: center !important;
-  vertical-align: middle !important;
-  align-content: center !important;
-  color: rgb(66, 66, 66);
-  margin-bottom: 120px;
-  margin: auto;
-  width: 80%;
-  max-width: 60%;
-  min-width: 60%;
-  text-align: justify;
-  padding: 10px;
 }
 
 .about-p {

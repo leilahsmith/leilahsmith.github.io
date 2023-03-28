@@ -3,146 +3,6 @@
     justify-content: center;
 }
 
-/*    <-- skills -->*/
-#skills {
-  justify-content: center !important;
-}
-
-.skill-icons {
-  width: 90%;
-  max-width: 150px;
-  height: 90%;
-  max-height: 150px;
-  top: 0;
-}
-
-.card {
-  text-align: center;
-  width: 25%;
-  min-width: 300px;
-  max-width: 300px;
-  height: 100%;
-  min-height: 450px;
-  max-height: 450px;
-  justify-content: space-between;
- 
-}
-
-.portfolio, .contact, .resume {
-  text-align: center;
-}
-
-.portfoliotable {
-  align-items: center;
-}
-
-.link {
-  color: white;
-  --bs-bg-opacity: 1;
-  background-color: black;
-}
-
-.skillsLabels {
-  font: strong;
-  overflow-wrap: break-word;
-}
-
-.project-flexbox {
-  display: flex;
-  flex-direction: row;
-  width: 90vw !important;
-  max-width: 100%;
-  height: 100%;
-  flex-wrap: wrap;
-  margin-bottom: 20px;
-  align-content: flex-start;
-  box-sizing: border-box !important;
-  flex: 0 1 auto;
-}
-
-.portfolio-cards {
-  top: 0;
-  text-align: center;
-  height: 100%;
-  min-height: 675px;
-  max-height: 675px;
-  width: 100%;
-  max-width: 300px !important;
-  overflow-wrap: break-word;
-  justify-content: center !important;
-  margin: 0;
-  border: 1px solid #333;
-  align-content: flex-start;
-}
-
-.bottom-row-cards {
-  align-self: flex-end;
-}
-
-.card-img-top {
-  width: 100%;
-  height: 100%;
-  max-height: 170px;
-  min-height: 170px;
-  border: 2px solid #333;
-  margin-bottom: 10px;
-  box-sizing: border-box !important;
-}
-
-.card-title {
-  width: 100%;
-  font-size: 1.5rem;
-  top: 0;
-  box-sizing: border-box !important;
-  max-height: 60px;
-  height: 100%;
-  letter-spacing: 1px !important;
-  overflow-wrap: break-word;
-}
-
-.card-text {
-  text-align: center;
-  overflow-wrap: break-word;
-  box-sizing: border-box !important;
-  width: 100%;
-  max-width: 800px;
-  margin: auto;
-  margin-bottom: 20px !important;
-  margin-top: 0 !important;
-  font-size: 1rem;
-}
-
-.card-button:hover {
-  color: #fff;
-  background-color: #333;
-}
-
-.button .btn {
-  margin-top: auto;
-}
-
-/*Flexbox properties*/
-.item {
-  flex-grow: 2; /* default 0 */
-  flex-wrap: wrap;
-}
-
-
-
-.flex-container {
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
-  box-sizing: border-box;
-}
-
-  .flex-container :first-child {
-    align-self: center;
-    overflow-wrap: break-word !important;
-    box-sizing: border-box;
-  }
-
-
 .contact {
   background-color: none;
 }
@@ -157,37 +17,12 @@
   text-decoration: none;
 }
 
-a {
-  text-decoration: none;
-}
-
-.skillsDesc {
-  
-  justify-content: center !important;
-  align-content: center !important;
-  width: 100%;
-  min-width: 30vw !important;
-  max-width: 30vw !important;
-  margin-bottom: 30px;
-  line-height: 1.5;
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 1.05rem;
-  text-align: justify;
-  overflow-wrap: break-word !important;
-  white-space: nowrap;
-  position: relative;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -ms-flex-align: center;
-}
 
 /*New Card Code*/
 .wrapper .header {
   width: 100%;
   height: 50px;
-  background: #873e23;
+  background: #7880B5;
   color: #fff;
   text-align: center;
   display: flex;
@@ -221,21 +56,23 @@ a {
     min-height: 370px;
     max-height: 370px;
     width: 100%;
+    text-align: center;
   }
 
   .cards_wrap .card_item img {
     width: 120px;
     height: 120px;
     margin-bottom: 5px;
+    justify-content: center !important;
+    align-content: center !important;
   }
 
   .cards_wrap .card_item .name {
-    color: #873e23;
+    color: #7880B5;
     font-weight: 900;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-size: 15px;
-    overflow: hidden;
     text-overflow: ellipsis;
   }
 
