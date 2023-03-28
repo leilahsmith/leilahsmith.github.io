@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { Routes, RouterModule } from '@angular/router';
-import { AccordionModule } from 'ngx-bootstrap/accordion';
 
 import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
@@ -57,7 +56,6 @@ const routes: Routes = [
       { path: 'contact', component: ContactComponent },
       { path: 'footer', component: FooterComponent },
     ]),
-    [AccordionModule.forRoot()]
   ],
   exports: [RouterModule],
   providers: [],

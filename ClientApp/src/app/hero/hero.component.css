@@ -1,28 +1,4 @@
 /* The hero image */
-/*.hero-image {
-  height: 100% !important;
-  width: 100vw!important;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  z-index: 0;
-}
-*/
-.hero-banner-container {
-  position: relative;
-  width: 100% !important;
-  max-width: 100vw !important;
-  height: 600px;
-  max-height: 80% !important;
-  z-index: 0 !important;
-  align-items: center !important;
-  align-content: center !important;
-  display: flex;
-  flex-direction: row;
-  border-bottom: 1px solid #333;
-  box-sizing: border-box;
-}
 
 .img-fluid {
   position: relative;
@@ -80,5 +56,3 @@
   justify-content: left;
   overflow-wrap: break-word;
 }
-
-/*Hero image ends*/

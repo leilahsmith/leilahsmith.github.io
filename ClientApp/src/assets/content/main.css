@@ -1,12 +1,12 @@
-/*html, body {
+html, body {
     width: 100vw!important;
     max-width: 100vw!important;
     overflow-x:hidden!important;
     background-color: #FBF6F3;
     box-sizing: border-box!important;
-}*/
+}
 
-/*@media (min-width: 992px) {
+@media (min-width: 992px) {
     .navbar-expand-md .navbar-collapse {
         max-height: 0.8em;
         max-width: 100vw!important;
@@ -18,11 +18,11 @@
 }
 
 @media (min-width: 992px) {
-    .navbar-expand-md {*/
-        /* -ms-flex-wrap: nowrap; */
-        /*flex-wrap: wrap;*/
-        /* -ms-flex-pack: start; */
-        /*justify-content: flex-start;
+    .navbar-expand-md {
+         -ms-flex-wrap: nowrap; 
+        flex-wrap: wrap;
+         -ms-flex-pack: start; 
+        justify-content: flex-start;
     }
 }
 
@@ -230,11 +230,11 @@
 
     .me-auto {
         margin-right: auto !important;
-    }*/
+    }
 
 
-    /* user agent stylesheet */
-    /*.div {
+     user agent stylesheet 
+    .div {
         display: block;
     }
 
@@ -264,9 +264,9 @@
         padding-left: var(--bs-gutter-x, 0.75rem);
         margin-right: auto;
         margin-left: auto;
-    }*/
-    /* Button Code */
-    /*.button {
+    }
+     Button Code 
+    .button {
         text-rendering: auto;
         letter-spacing: 0.5rem;
         word-spacing: normal;
@@ -309,10 +309,10 @@
         color: #fff;
         background-color: #1a1a1a;
         border-color: #1a1a1a;
-    }*/
+    }
 
-/* The hero image */
-/*.hero-image {
+ The hero image 
+.hero-image {
     background-image: url("/Content/Images/hero2.png");
     height: 100%!important;
     width: 100%;
@@ -405,10 +405,10 @@ h2 {
     max-height: 90%!important;
     z-index: 0;
     position: relative;
-}*/
-/*Hero image ends*/
+}
+Hero image ends
 
-/*.section {
+.section {
     color: black;
     text-align: center;
 }
@@ -521,10 +521,10 @@ h2 {
         --bs-body-line-height: 1.5;
         --bs-body-color: #55595c;
         --bs-body-bg: #fff;
-    }*/
+    }
 
-/*    <-- skills -->*/
-/*#skills {
+    <-- skills -->
+#skills {
     justify-content: center!important;
 }
 .skill-icons {
@@ -602,13 +602,13 @@ h2 {
     border: 2px solid #333;
     margin-bottom: 10px;
     box-sizing: border-box!important;
-}*/
+}
 
-/* .tectonic-card {
+ .tectonic-card {
     margin-bottom: 10px;
-} */
+} 
 
-/*.tectonic-button {
+.tectonic-button {
     width: 100%;
     max-width: 290px!important;
     letter-spacing: 4px;
@@ -648,11 +648,11 @@ h2 {
 
 .button .btn {
     margin-top: auto;
-}*/
-/*Flexbox properties*/
-/*.item {
-    flex-grow: 2;*/ /* default 0 */
-    /*flex-wrap: wrap;
+}
+Flexbox properties
+.item {
+    flex-grow: 2;  default 0 
+    flex-wrap: wrap;
 
 }
 .flex-container {
@@ -712,4 +712,4 @@ a {
     border: 1px solid #333;
     padding: 3px;
     font-size: .75em;
-}*/
+}
