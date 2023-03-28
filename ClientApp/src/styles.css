@@ -73,7 +73,6 @@ body {
   align-content: center !important;
   display: flex;
   flex-direction: row;
-  border-bottom: 1px solid #333;
   box-sizing: border-box;
   margin-top: -20px;
 }
