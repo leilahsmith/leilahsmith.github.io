@@ -59,16 +59,17 @@
   overflow-wrap: break-word;
 }
 
-/*.about-p {
-  justify-content: center !important;
-  align-content: center !important;
-  width: 100%;
-  max-width: 95vw !important;
-  min-width: 60%;
-  margin-bottom: 30px;
-  line-height: 1.5;
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 1.05rem;
-  text-align: justify;
-  overflow-wrap: break-word!important;
-}*/
+
+@media screen and (max-width: 1024px) {
+  .about-p {
+    padding: 10px 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  
+}
+
+@media screen and (max-width: 568px) {
+ 
+}
