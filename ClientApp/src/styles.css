@@ -22,7 +22,7 @@ body {
   width: 100vw !important;
   max-width: 100% !important;
   margin: auto !important;
-  background-color: #e1c9c1 !important;
+  background-color: #FFF !important;
 }
 
 .body-wrapper {
@@ -527,3 +527,6 @@ a {
   margin-top: 5px;
   justify-content: center;
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

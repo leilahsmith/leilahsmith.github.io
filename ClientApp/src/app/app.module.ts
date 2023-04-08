@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { Routes, RouterModule } from '@angular/router';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatIconModule } from "@angular/material/icon";
 
 import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
@@ -16,6 +18,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { CoursesComponent } from './courses/courses.component';
 import { ResumeComponent } from './resume/resume.component';
 import { ContactComponent } from './contact/contact.component';
+
 
 const routes: Routes = [
   {
@@ -43,6 +46,7 @@ const routes: Routes = [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
     HttpClientModule,
     FormsModule,
+    MatIconModule,
     RouterModule.forRoot([
       { path: 'hero', component: HeroComponent },
       { path: 'about', component: AboutComponent },
@@ -54,8 +58,12 @@ const routes: Routes = [
       { path: 'contact', component: ContactComponent },
 
     ]),
+    BrowserAnimationsModule,
   ],
-  exports: [RouterModule],
+  exports: [
+    RouterModule,
+    MatIconModule,
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
