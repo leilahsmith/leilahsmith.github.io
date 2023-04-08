@@ -16,7 +16,6 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { CoursesComponent } from './courses/courses.component';
 import { ResumeComponent } from './resume/resume.component';
 import { ContactComponent } from './contact/contact.component';
-import { FooterComponent } from './footer/footer.component';
 
 const routes: Routes = [
   {
@@ -39,7 +38,6 @@ const routes: Routes = [
     CoursesComponent,
     ResumeComponent,
     ContactComponent,
-    FooterComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -54,7 +52,7 @@ const routes: Routes = [
       { path: 'courses', component: CoursesComponent },
       { path: 'resume', component: ResumeComponent },
       { path: 'contact', component: ContactComponent },
-      { path: 'footer', component: FooterComponent },
+
     ]),
   ],
   exports: [RouterModule],
