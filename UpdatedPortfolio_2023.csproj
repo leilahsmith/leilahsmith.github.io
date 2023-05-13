@@ -11,17 +11,31 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Angular.Material" Version="1.1.12" />
     <PackageReference Include="Microsoft.AspNetCore.SpaProxy" Version="6.0.5" />
   </ItemGroup>
 
   <ItemGroup>
     <!-- Don't publish the SPA source files, but do show them in the project files list -->
+    <Compile Remove="ClientApp\src\app\footer\**" />
     <Content Remove="$(SpaRoot)**" />
+    <Content Remove="ClientApp\src\app\footer\**" />
+    <EmbeddedResource Remove="ClientApp\src\app\footer\**" />
     <None Remove="$(SpaRoot)**" />
+    <None Remove="ClientApp\src\app\footer\**" />
     <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="ClientApp\src\app\footer\footer.component.css" />
+    <None Remove="ClientApp\src\app\footer\footer.component.html" />
+    <None Remove="ClientApp\src\app\footer\footer.component.spec.ts" />
+    <None Remove="ClientApp\src\app\footer\footer.component.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ClientApp\.angular\cache\angular-webpack\" />
+    <Folder Include="ClientApp\.angular\cache\babel-webpack\" />
     <Folder Include="ClientApp\src\assets\content\images\" />
   </ItemGroup>
 
