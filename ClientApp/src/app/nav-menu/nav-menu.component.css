@@ -73,17 +73,25 @@ html {
 }
 
 .navbar-collapse {
-
   flex-basis: 100%;
-
   flex-grow: 1;
   -ms-flex-align: center;
   align-items: center;
 }
-
+@media (min-width: 412px) and (max-width: 375px) {
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    font-size: 1.25em;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+  }
+}
 .navbar-nav {
   display: flex;
-
   flex-direction: row;
   padding-left: 0;
   margin-bottom: 0;
