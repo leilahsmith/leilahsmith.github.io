@@ -14,7 +14,7 @@
 }
 
 .cards_wrap {
-  padding: 20px;
+  padding: 10px;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -34,8 +34,6 @@
     padding: 25px 10px;
     min-width: 225px;
     max-width: 450px;
-    min-height: 175px;
-    max-height: 300px;
     width: 100%;
     text-align: left;
     margin: 0 !important;
@@ -91,7 +89,7 @@
 mat-icon {
   vertical-align: middle;
   color: #7880B5;
-  
+
 }
 
 .item-flexbox {
